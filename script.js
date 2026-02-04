@@ -105,7 +105,7 @@ yes_button.addEventListener("click", () => {
 
         // stwórz element audio z kontrolkami
         const audio = document.createElement("audio");
-        audio.src = "./nutka.mp3"; 
+        audio.src = "audio/nutka.mp3"; 
         audio.controls = true;
             audio.load();    // play/pause dostępne dla użytkownika
 
