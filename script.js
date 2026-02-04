@@ -105,7 +105,7 @@ yes_button.addEventListener("click", () => {
 
         // stwórz element audio z kontrolkami
         const audio = document.createElement("audio");
-        audio.src = "https://https://najmor.github.io/stronaaaa/nutka.mp3"; // Twój plik
+        audio.src = "najmor.github.io/stronaaaa/nutka.mp3"; // Twój plik
         audio.controls = true;       // play/pause dostępne dla użytkownika
 
         // dodaj audio do kontenera
